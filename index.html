@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉLORA — L'élégance au quotidien | Boutique de Mode à Abidjan</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Découvrez ÉLORA, marque de prêt-à-porter haut de gamme et accessible à Abidjan, Côte d'Ivoire. Vêtements pour hommes et femmes, chaussures et accessoires tendance. Livraison rapide à Abidjan.">
+    <meta name="keywords"
+        content="ELORA, Élora, mode Abidjan, vêtements Abidjan, prêt-à-porter Côte d'Ivoire, mode femme, mode homme, accessoires, boutique Cocody, chic abidjanais">
+    <meta name="author" content="ÉLORA Abidjan">
+    <meta name="theme-color" content="#654A37">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elora-abidjan.ci/">
+    <meta property="og:title" content="ÉLORA — L'élégance au quotidien">
+    <meta property="og:description"
+        content="Vêtements tendance pour femmes & hommes, chaussures et accessoires de mode à Abidjan. Commandez directement via WhatsApp.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts: Cormorant Garamond (Editorial Luxury Serif) + Plus Jakarta Sans (Clean Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <aside class="announcement-bar" aria-label="Annonce promotionnelle">
+        <div class="container announcement-content">
+            <span class="announcement-badge">✦ ÉDITION 2026</span>
+            <p>Livraison express disponible partout à <strong>Abidjan</strong> (Cocody, Plateau, Marcory, Yopougon...)
+                &bull; Commandes faciles sur WhatsApp</p>
+            <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20me%20renseigner%20sur%20vos%20disponibilit%C3%A9s."
+                target="_blank" rel="noopener noreferrer" class="announcement-link">
+                Assistance VIP
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+    </aside>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header" id="header">
+        <div class="container navbar">
+            <!-- Brand Logo -->
+            <a href="#hero" class="brand-logo" aria-label="Accueil ÉLORA">
+                <span class="logo-text">ÉLORA</span>
+                <span class="logo-sub">ABIDJAN</span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Navigation principale">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="#collections" class="nav-link">Collections</a></li>
+                    <li class="nav-item"><a href="#produits" class="nav-link">Nos Coups de Cœur</a></li>
+                    <li class="nav-item"><a href="#a-propos" class="nav-link">À Propos</a></li>
+                    <li class="nav-item"><a href="#temoignages" class="nav-link">Témoignages</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Navigation Actions -->
+            <div class="nav-actions">
+                <a href="#produits" class="btn btn-primary nav-cta">
+                    <span>Découvrir la boutique</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                </a>
+
+                <!-- Mobile Hamburger Button -->
+                <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu de navigation"
+                    aria-expanded="false" aria-controls="mobile-drawer">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Navigation -->
+        <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+            <div class="mobile-drawer-header">
+                <div class="brand-logo">
+                    <span class="logo-text">ÉLORA</span>
+                    <span class="logo-sub">ABIDJAN</span>
+                </div>
+                <button class="drawer-close" id="drawer-close-btn" aria-label="Fermer le menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <ul class="mobile-nav-list">
+                <li><a href="#hero" class="mobile-nav-link">Accueil</a></li>
+                <li><a href="#collections" class="mobile-nav-link">Collections</a></li>
+                <li><a href="#produits" class="mobile-nav-link">Nos Coups de Cœur</a></li>
+                <li><a href="#a-propos" class="mobile-nav-link">À Propos</a></li>
+                <li><a href="#temoignages" class="mobile-nav-link">Témoignages</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-drawer-footer">
+                <a href="#produits" class="btn btn-primary btn-block mobile-shop-btn">
+                    <span>Découvrir la boutique</span>
+                </a>
+                <div class="mobile-contact-info">
+                    <p><strong>Cocody 2 Plateaux, Abidjan</strong></p>
+                    <p>WhatsApp : +225 01 01 39 50 18</p>
+                </div>
+            </div>
+        </div>
+        <!-- Backdrop Overlay -->
+        <div class="menu-overlay" id="menu-overlay"></div>
+    </header>
+
+    <main>
+        <!-- B. HERO SECTION -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-accent"></div>
+            <div class="container hero-container">
+                <!-- Left Column : Editorial Content -->
+                <div class="hero-content reveal-fade-up">
+                    <div class="hero-tag">
+                        <span class="tag-pulse"></span>
+                        <span class="tag-text">NOUVELLE COLLECTION</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Révélez votre style. <br>
+                        <em>Affirmez votre élégance.</em>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Découvrez une sélection de vêtements tendance, soigneusement choisis pour vous accompagner avec
+                        élégance au quotidien.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="hero-cta-group">
+                        <a href="#collections" class="btn btn-primary btn-hero">
+                            <span>Découvrir la collection</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-hero">
+                            <span>Nous contacter</span>
+                        </a>
+                    </div>
+
+                    <!-- Delivery Notice -->
+                    <div class="hero-delivery-badge">
+                        <div class="delivery-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="1" y="3" width="15" height="13"></rect>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                            </svg>
+                        </div>
+                        <div class="delivery-text">
+                            <strong>Livraison disponible à Abidjan.</strong>
+                            <span>Expédition express sous 24h à 48h à votre porte</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Micro-metrics -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Pièces Authentiques</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9 / 5</span>
+                            <span class="stat-label">Avis Clients Abidjan</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">+2 500</span>
+                            <span class="stat-label">Clients Sublimés</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column : Editorial Image Composition -->
+                <div class="hero-media reveal-fade-left">
+                    <div class="hero-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=85"
+                            alt="Mannequin femme élégante vêtue de la nouvelle collection ÉLORA dans des tons marron et beige"
+                            class="hero-img" loading="eager">
+                        <!-- Editorial Frame Accent -->
+                        <div class="hero-frame-accent"></div>
+
+                        <!-- Floating Glass Card : Coup de coeur -->
+                        <div class="floating-badge badge-top">
+                            <span class="floating-icon">✦</span>
+                            <div>
+                                <span class="badge-title">Élégance Pure</span>
+                                <span class="badge-desc">Matières fluides & nobles</span>
+                            </div>
+                        </div>
+
+                        <!-- Floating Glass Card : Localisation -->
+                        <div class="floating-badge badge-bottom">
+                            <div class="location-pin">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="badge-title">Maison ÉLORA</span>
+                                <span class="badge-desc">Cocody 2 Plateaux &bull; Abidjan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LUXURY BRAND PILLARS -->
+        <section class="brand-strip" aria-label="Engagements de la marque">
+            <div class="container strip-grid">
+                <div class="strip-item">
+                    <div class="strip-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Design & Style Épuré</h4>
+                        <p>Inspiré des plus grandes maisons de mode</p>
+                    </div>
+                </div>
+
+                <div class="strip-item">
+                    <div class="strip-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Qualité & Confort</h4>
+                        <p>Tissus respirants et finitions impeccables</p>
+                    </div>
+                </div>
+
+                <div class="strip-item">
+                    <div class="strip-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Livraison Rapide</h4>
+                        <p>Partout à Abidjan et en Côte d'Ivoire</p>
+                    </div>
+                </div>
+
+                <div class="strip-item">
+                    <div class="strip-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Commande WhatsApp Directe</h4>
+                        <p>Conseils personnalisés & réactivité garantie</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- C. SECTION COLLECTIONS -->
+        <section class="section collections-section" id="collections">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <span class="section-eyebrow">CATÉGORIES D'EXCEPTION</span>
+                    <h2 class="section-title">Explorez nos collections</h2>
+                    <p class="section-subtitle">Des pièces sélectionnées pour exprimer votre personnalité.</p>
+                </div>
+
+                <div class="collections-grid">
+                    <!-- Collection Femme -->
+                    <article class="collection-card reveal-fade-up" data-delay="100">
+                        <div class="collection-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80"
+                                alt="Collection Femme ÉLORA - Robes élégantes et ensembles chics" class="collection-img"
+                                loading="lazy">
+                            <div class="collection-overlay"></div>
+                        </div>
+                        <div class="collection-content">
+                            <span class="collection-tag">Inspiration Féminine</span>
+                            <h3 class="collection-name">Collection Femme</h3>
+                            <p class="collection-desc">Ensembles tailleurs, robes vaporeuses et coupes raffinées pensées
+                                pour sublimer chaque silhouette.</p>
+                            <a href="#produits" class="btn btn-collection" data-filter="femme">
+                                <span>Explorer</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Collection Homme -->
+                    <article class="collection-card reveal-fade-up" data-delay="200">
+                        <div class="collection-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80"
+                                alt="Collection Homme ÉLORA - Chemises haut de gamme et ensembles décontractés chics"
+                                class="collection-img" loading="lazy">
+                            <div class="collection-overlay"></div>
+                        </div>
+                        <div class="collection-content">
+                            <span class="collection-tag">Allure Masculine</span>
+                            <h3 class="collection-name">Collection Homme</h3>
+                            <p class="collection-desc">Chemises oversize en lin, ensembles casual chics et coupes
+                                modernes pour une distinction naturelle.</p>
+                            <a href="#produits" class="btn btn-collection" data-filter="homme">
+                                <span>Explorer</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Collection Accessoires -->
+                    <article class="collection-card reveal-fade-up" data-delay="300">
+                        <div class="collection-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80"
+                                alt="Accessoires de mode ÉLORA - Sacs en cuir et souliers de luxe"
+                                class="collection-img" loading="lazy">
+                            <div class="collection-overlay"></div>
+                        </div>
+                        <div class="collection-content">
+                            <span class="collection-tag">La Touche Finale</span>
+                            <h3 class="collection-name">Accessoires</h3>
+                            <p class="collection-desc">Sacs à main en cuir travaillés, souliers contemporains et détails
+                                subtils qui signent votre raffinement.</p>
+                            <a href="#produits" class="btn btn-collection" data-filter="accessoires">
+                                <span>Explorer</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- D. SECTION PRODUITS POPULAIRES ("Nos coups de cœur") -->
+        <section class="section products-section" id="produits">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <span class="section-eyebrow">SÉLECTION SIGNATURE</span>
+                    <h2 class="section-title">Nos coups de cœur</h2>
+                    <p class="section-subtitle">Les pièces incontournables de notre sélection.</p>
+                </div>
+
+                <!-- Category Filter Buttons -->
+                <div class="product-filters reveal-fade-up" role="tablist" aria-label="Filtrer les produits">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Toutes les
+                        pièces</button>
+                    <button class="filter-btn" data-filter="femme" role="tab" aria-selected="false">Femme</button>
+                    <button class="filter-btn" data-filter="homme" role="tab" aria-selected="false">Homme</button>
+                    <button class="filter-btn" data-filter="accessoires" role="tab" aria-selected="false">Accessoires &
+                        Chaussures</button>
+                </div>
+
+                <!-- Products Grid (6 Required Items) -->
+                <div class="products-grid" id="products-grid">
+
+                    <!-- Produit 1 : Ensemble chic femme -->
+                    <article class="product-card reveal-fade-up" data-category="femme">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-bestseller">Best-seller</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80"
+                                alt="Ensemble chic femme ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="1" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Collection Femme</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Ensemble chic femme</h3>
+                            <p class="product-price">25 000 FCFA</p>
+                            <p class="product-excerpt">Ensemble deux pièces coordonné, coupe impeccable et tombé soyeux.
+                                Idéal pour les réceptions ou le bureau chic.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Ensemble%20chic%20femme%20(25%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Ensemble chic femme" data-price="25 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 2 : Chemise oversize -->
+                    <article class="product-card reveal-fade-up" data-category="homme">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-trending">Tendance</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80"
+                                alt="Chemise oversize ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="2" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Collection Homme</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Chemise oversize</h3>
+                            <p class="product-price">15 000 FCFA</p>
+                            <p class="product-excerpt">Tissage lin & coton aéré, coupe ample et décontractée. Parfaite
+                                pour le climat chaud et l'élégance urbaine.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Chemise%20oversize%20(15%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Chemise oversize" data-price="15 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 3 : Robe élégante -->
+                    <article class="product-card reveal-fade-up" data-category="femme">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-exclusive">Coup de cœur</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80"
+                                alt="Robe élégante ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="3" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Collection Femme</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Robe élégante</h3>
+                            <p class="product-price">22 000 FCFA</p>
+                            <p class="product-excerpt">Silhouette cintrée délicate, nuances beige terre de Sienne. Une
+                                pièce maîtresse pour toutes vos occasions prestigieuses.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Robe%20%C3%A9l%C3%A9gante%20(22%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Robe élégante" data-price="22 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 4 : Ensemble casual homme -->
+                    <article class="product-card reveal-fade-up" data-category="homme">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-new">Nouveau</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80"
+                                alt="Ensemble casual homme ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="4" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Collection Homme</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Ensemble casual homme</h3>
+                            <p class="product-price">28 000 FCFA</p>
+                            <p class="product-excerpt">Pantalon fluide chino et surchemise ton sur ton. Allure
+                                décontractée mais résolument soignée pour le week-end ou les soirées.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Ensemble%20casual%20homme%20(28%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Ensemble casual homme" data-price="28 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 5 : Sac à main -->
+                    <article class="product-card reveal-fade-up" data-category="accessoires">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-exclusive">Édition Limitée</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80"
+                                alt="Sac à main de luxe ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="5" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Accessoires</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Sac à main</h3>
+                            <p class="product-price">18 000 FCFA</p>
+                            <p class="product-excerpt">Maroquinerie fine marron chaud, bijouterie dorée, bandoulière
+                                réglable. L'allié intemporel de toutes vos sorties.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Sac%20%C3%A0%20main%20(18%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Sac à main" data-price="18 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 6 : Sneakers tendance -->
+                    <article class="product-card reveal-fade-up" data-category="accessoires">
+                        <div class="product-badge-container">
+                            <span class="product-badge badge-trending">Incontournable</span>
+                        </div>
+                        <div class="product-media">
+                            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=700&q=80"
+                                alt="Sneakers tendance ÉLORA" class="product-img" loading="lazy">
+                            <button class="quick-view-btn" data-id="6" aria-label="Aperçu rapide du produit">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Aperçu rapide</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Chaussures & Accessoires</span>
+                                <div class="product-rating" aria-label="Note de 5 sur 5">
+                                    ★★★★★ <span class="rating-val">(5.0)</span>
+                                </div>
+                            </div>
+                            <h3 class="product-title">Sneakers tendance</h3>
+                            <p class="product-price">30 000 FCFA</p>
+                            <p class="product-excerpt">Design minimaliste blanc et beige, semelle ergonomique
+                                confortable. L'équilibre idéal entre sportswear chic et haute allure.</p>
+
+                            <div class="product-actions">
+                                <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20commander%20l'article%20:%20Sneakers%20tendance%20(30%20000%20FCFA)."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order whatsapp-order-btn"
+                                    data-name="Sneakers tendance" data-price="30 000 FCFA">
+                                    <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                    </svg>
+                                    <span>Commander</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Custom WhatsApp Order Banner -->
+                <div class="catalog-order-banner reveal-fade-up">
+                    <div class="banner-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <span>Sur mesure & Conseils</span>
+                    </div>
+                    <div class="banner-content">
+                        <h3>Vous cherchez une taille ou un modèle particulier ?</h3>
+                        <p>Notre équipe à Abidjan est à votre écoute pour vous guider en direct sur les matières,
+                            essayages et livraisons immédiates.</p>
+                    </div>
+                    <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20un%20conseil%20personnalis%C3%A9%20sur%20vos%20articles."
+                        target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <span>Échanger sur WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- E. SECTION À PROPOS -->
+        <section class="section about-section" id="a-propos">
+            <div class="container">
+                <div class="about-grid">
+                    <!-- Left : Image Composition -->
+                    <div class="about-media reveal-fade-right">
+                        <div class="about-image-card">
+                            <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80"
+                                alt="Atelier de création et sélection de pièces ÉLORA à Abidjan" class="about-img-main"
+                                loading="lazy">
+                            <div class="about-badge-established">
+                                <span class="badge-year">2026</span>
+                                <span class="badge-city">ABIDJAN &bull; CÔTE D'IVOIRE</span>
+                            </div>
+                        </div>
+                        <div class="about-image-secondary">
+                            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+                                alt="Détail de couture et finitions haut de gamme ÉLORA" class="about-img-sub"
+                                loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Right : Editorial Story & Commitments -->
+                    <div class="about-content reveal-fade-left">
+                        <span class="section-eyebrow">NOTRE HISTOIRE &bull; NOTRE VISION</span>
+                        <h2 class="about-title">L'élégance commence par votre style.</h2>
+
+                        <div class="about-quote">
+                            « Chez ÉLORA, nous croyons que chaque personne mérite de se sentir élégante et confiante.
+                            Notre mission est de vous proposer des vêtements modernes, soigneusement sélectionnés pour
+                            allier style, qualité et accessibilité. »
+                        </div>
+
+                        <p class="about-text">
+                            Née au cœur d'Abidjan, la marque <strong>ÉLORA</strong> puise son inspiration dans l'énergie
+                            vibrante et la sophistication intemporelle de la métropole ivoirienne. Nous imaginons une
+                            garde-robe qui conjugue confort moderne, coupes sculpturales et matières douces, adaptées au
+                            rythme de votre vie quotidienne.
+                        </p>
+
+                        <!-- 3 Engagements -->
+                        <div class="commitments-list">
+                            <div class="commitment-item">
+                                <div class="commitment-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="commitment-text">
+                                    <h4>Sélection tendance</h4>
+                                    <p>Des collections régulièrement renouvelées avec les dernières silhouettes en
+                                        vogue, alliant modernité et intemporalité.</p>
+                                </div>
+                            </div>
+
+                            <div class="commitment-item">
+                                <div class="commitment-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="commitment-text">
+                                    <h4>Qualité et élégance</h4>
+                                    <p>Une rigueur constante dans le choix des matières, des coutures soignées et un
+                                        souci du détail sans compromis.</p>
+                                </div>
+                            </div>
+
+                            <div class="commitment-item">
+                                <div class="commitment-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="commitment-text">
+                                    <h4>Service client à l'écoute</h4>
+                                    <p>Une équipe dévouée pour vous conseiller, vous aider à choisir la bonne taille et
+                                        garantir votre entière satisfaction.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-action">
+                            <a href="#produits" class="btn btn-primary">
+                                <span>Découvrir notre univers</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- F. SECTION TÉMOIGNAGES -->
+        <section class="section testimonials-section" id="temoignages">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-up">
+                    <span class="section-eyebrow">AVIS CLIENTS VÉRIFIÉS</span>
+                    <h2 class="section-title">Elles et ils parlent de nous</h2>
+                    <p class="section-subtitle">Votre satisfaction est notre plus belle récompense.</p>
+                </div>
+
+                <div class="testimonials-grid">
+
+                    <!-- Témoignage 1 -->
+                    <article class="testimonial-card reveal-fade-up" data-delay="100">
+                        <div class="testimonial-quote-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-8.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-rating" aria-label="Note : 5 sur 5">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            « J'adore la qualité des vêtements et surtout le style des collections. Je recommande
+                            vivement ÉLORA ! »
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80"
+                                alt="Grâce K." class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <span class="author-name">Grâce K.</span>
+                                <span class="author-location">Abidjan &bull; Cocody</span>
+                            </div>
+                        </div>
+                        <span class="verified-badge">✓ Achat vérifié</span>
+                    </article>
+
+                    <!-- Témoignage 2 -->
+                    <article class="testimonial-card reveal-fade-up" data-delay="200">
+                        <div class="testimonial-quote-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-8.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-rating" aria-label="Note : 5 sur 5">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            « Une très belle découverte à Abidjan. Les articles sont élégants et correspondent
+                            parfaitement à mes attentes. »
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+                                alt="Marc A." class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <span class="author-name">Marc A.</span>
+                                <span class="author-location">Abidjan &bull; Plateau</span>
+                            </div>
+                        </div>
+                        <span class="verified-badge">✓ Achat vérifié</span>
+                    </article>
+
+                    <!-- Témoignage 3 -->
+                    <article class="testimonial-card reveal-fade-up" data-delay="300">
+                        <div class="testimonial-quote-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-8.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-rating" aria-label="Note : 5 sur 5">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">5/5</span>
+                        </div>
+                        <blockquote class="testimonial-text">
+                            « Un service client agréable et des vêtements magnifiques. Je commanderai encore sans
+                            hésiter. »
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80"
+                                alt="Vanessa D." class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <span class="author-name">Vanessa D.</span>
+                                <span class="author-location">Abidjan &bull; Marcory Zone 4</span>
+                            </div>
+                        </div>
+                        <span class="verified-badge">✓ Achat vérifié</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- G. SECTION CTA FINALE -->
+        <section class="cta-final-section">
+            <div class="cta-background-pattern"></div>
+            <div class="container">
+                <div class="cta-final-wrapper reveal-fade-up">
+                    <span class="cta-eyebrow">L'EXPÉRIENCE ÉLORA</span>
+                    <h2 class="cta-title">Votre prochain coup de cœur vous attend.</h2>
+                    <p class="cta-text">Faites le choix du style et découvrez dès maintenant notre univers.</p>
+
+                    <div class="cta-buttons">
+                        <a href="#collections" class="btn btn-cta-main">
+                            <span>Découvrir nos collections</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20recevoir%20votre%20catalogue%20complet."
+                            target="_blank" rel="noopener noreferrer" class="btn btn-cta-secondary">
+                            <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            <span>Catalogue WhatsApp</span>
+                        </a>
+                    </div>
+
+                    <!-- Newsletter VIP Subscription Form -->
+                    <div class="vip-club-form">
+                        <p class="vip-club-title">Recevez les nouveaux arrivages d'Abidjan en avant-première :</p>
+                        <form id="newsletter-form" class="newsletter-input-group">
+                            <input type="email" id="newsletter-email"
+                                placeholder="Votre adresse email ou numéro WhatsApp..." required
+                                aria-label="Adresse email ou WhatsApp pour la newsletter">
+                            <button type="submit" class="btn btn-vip-submit">Rejoindre le Cercle ÉLORA</button>
+                        </form>
+                        <p class="newsletter-notice">Confidentialité garantie &bull; Aucun spam, uniquement nos plus
+                            belles pièces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- H. FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-grid">
+
+                <!-- Colonne 1 : Identité & Slogan -->
+                <div class="footer-col footer-col-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">ÉLORA</span>
+                        <span class="logo-sub">ABIDJAN</span>
+                    </div>
+                    <p class="footer-slogan">« L'élégance au quotidien. »</p>
+                    <p class="footer-bio">
+                        Marque de prêt-à-porter moderne, tendance et accessible. Conçue pour sublimer les femmes et les
+                        hommes avec des matières d'exception et une allure intemporelle.
+                    </p>
+                    <div class="footer-delivery-tag">
+                        <span>✦ Livraison partout à Abidjan & intérieur du pays</span>
+                    </div>
+                </div>
+
+                <!-- Colonne 2 : Navigation -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#produits">Nos coups de cœur</a></li>
+                        <li><a href="#a-propos">À propos</a></li>
+                        <li><a href="#temoignages">Témoignages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Contact -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contactez-nous</h3>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="label">Téléphone 1 :</span>
+                                <a href="tel:+2250101395018">+225 01 01 39 50 18</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="label">Téléphone 2 :</span>
+                                <a href="tel:+2250700579409">+225 07 00 57 94 09</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <svg class="whatsapp-btn-icon" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="label">WhatsApp :</span>
+                                <a href="https://wa.me/2250101395018" target="_blank" rel="noopener noreferrer">+225 01
+                                    01 39 50 18</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="label">Localisation :</span>
+                                <span>Abidjan Cocody 2 Plateaux</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Réseaux Sociaux -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Réseaux Sociaux</h3>
+                    <p class="footer-social-desc">Suivez nos inspirations mode et nos défilés quotidiens sur nos canaux
+                        officiels :</p>
+                    <div class="social-links-grid">
+                        <!-- Instagram -->
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Suivre ÉLORA sur Instagram">
+                            <div class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <span class="social-name">Instagram</span>
+                        </a>
+
+                        <!-- Facebook -->
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Suivre ÉLORA sur Facebook">
+                            <div class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </div>
+                            <span class="social-name">Facebook</span>
+                        </a>
+
+                        <!-- TikTok -->
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Suivre ÉLORA sur TikTok">
+                            <div class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                                </svg>
+                            </div>
+                            <span class="social-name">TikTok</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>© 2026 ÉLORA. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <span>Abidjan, Côte d'Ivoire</span>
+                    <span class="separator">•</span>
+                    <span>Conçu pour sublimer votre allure</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- QUICK VIEW MODAL (Pop-up produit) -->
+    <div class="modal-backdrop" id="quick-view-modal" aria-hidden="true" role="dialog"
+        aria-labelledby="modal-product-title">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Fermer la vue produit">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image-col">
+                    <img id="modal-product-img" src="" alt="Aperçu du vêtement" class="modal-img">
+                    <span class="modal-stock-badge">✓ En stock à Abidjan</span>
+                </div>
+                <div class="modal-details-col">
+                    <span class="modal-category" id="modal-product-cat">Collection</span>
+                    <h3 class="modal-title" id="modal-product-title">Nom du produit</h3>
+                    <div class="modal-price" id="modal-product-price">0 FCFA</div>
+
+                    <p class="modal-desc" id="modal-product-desc">Description de la pièce.</p>
+
+                    <!-- Sélecteur de taille -->
+                    <div class="modal-option-group" id="size-selector-group">
+                        <label class="option-label">Sélectionnez votre taille :</label>
+                        <div class="size-pills">
+                            <button type="button" class="size-pill active" data-size="S">S</button>
+                            <button type="button" class="size-pill" data-size="M">M</button>
+                            <button type="button" class="size-pill" data-size="L">L</button>
+                            <button type="button" class="size-pill" data-size="XL">XL</button>
+                        </div>
+                    </div>
+
+                    <!-- Avantages commande directe -->
+                    <div class="modal-perks">
+                        <div class="perk-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Livraison à domicile à Abidjan sous 24-48h</span>
+                        </div>
+                        <div class="perk-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Paiement à la livraison / Mobile Money & Wave acceptés</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-actions">
+                        <a href="#" id="modal-order-btn" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary btn-block">
+                            <svg class="whatsapp-btn-icon" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            <span>Commander cet article sur WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON (En bas à droite) -->
+    <a href="https://wa.me/2250101395018?text=Bonjour%20%C3%89LORA,%20je%20souhaite%20d%C3%A9couvrir%20vos%20pi%C3%A8ces%20et%20poser%20une%20question."
+        class="floating-whatsapp" target="_blank" rel="noopener noreferrer"
+        aria-label="Contacter la boutique ÉLORA sur WhatsApp">
+        <span class="whatsapp-tooltip">Commander sur WhatsApp</span>
+        <div class="whatsapp-icon-circle">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="#FFFFFF">
+                <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+            <span class="whatsapp-pulse"></span>
+        </div>
+    </a>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="back-to-top" aria-label="Retour en haut de la page">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- NOTIFICATION TOAST -->
+    <div class="toast-notification" id="toast-notification" role="status" aria-live="polite"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
